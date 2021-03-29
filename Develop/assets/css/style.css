@@ -1,3 +1,4 @@
+/*universal elements start*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,7 +17,9 @@ a {
 p {
     font-size: 16px;
 }
+/*universal elements end*/
 
+/*header style start*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +52,9 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/*header style end*/
 
+/*style for the hero image*/
 figure {
     height: 800px;
     width: 100%;
@@ -59,6 +64,7 @@ figure {
     background-position: center;
 }
 
+/*main content style start*/
 main {
     width: 75%;
     display: inline-block;
@@ -83,6 +89,20 @@ main article h2 {
     font-size: 36px;
 }
 
+/*moves image left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*moves image right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*main content style end*/
+
+/*aside style start*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -109,7 +129,9 @@ aside article img {
     margin: 10px auto;
     max-width: 150px;
 }
+/*aside style end*/
 
+/*footer style start*/
 footer {
     padding: 30px;
     clear: both;
@@ -120,13 +142,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*footer style end*/
